@@ -32,7 +32,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with: 
         name: relatorio-testes
-        path: Aula-Github-Actions/target/site/
+        path: Aula-GitHub-Actions/target/site/
 
   empacotar:
 
@@ -57,4 +57,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with: 
         name: arquivo-jar
-        path: Aula-Github-Actions/target/*.jar
+        path: Aula-GitHub-Actions/target/*.jar
