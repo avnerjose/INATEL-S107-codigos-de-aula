@@ -66,4 +66,4 @@ jobs:
     steps: 
     - name: Executar scripts versionados
       uses: actions/checkout@v3
-    - run: sh scrips/shell.sh 
+    - run: sh scripts/shell.sh 
